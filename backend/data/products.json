@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Shoes",
+    "image": "https://hips.hearstapps.com/hmg-prod/images/hoka-zinal-13085-1643565794.jpg",
+    "price": 29.99,
+    "description": "Description for Product 1"
+  },
+  {
+    "id": 2,
+    "name": "IPhone 15",
+    "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-finish-select-202309-6-1inch-blue?wid=2560&hei=1440&fmt=jpeg&qlt=95&.v=1692923777972",
+    "price": 49.99,
+    "description": "Description for Product 2"
+  },
+  {
+    "id": 3,
+    "name": "Airpods Pro",
+    "image": "https://i0.wp.com/www.ear-fidelity.com/wp-content/uploads/2022/10/P1054788s-scaled.jpg?fit=2560%2C1707&ssl=1",
+    "price": 19.99,
+    "description": "Description for Product 3"
+  },
+  {
+    "id": 4,
+    "name": "Shirts",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvlWfjysa0y5S9VIKYd94HEAx0FuHu5Btl1w&s",
+    "price": 99.99,
+    "description": "Description for Product 4"
+  },
+  {
+    "id": 5,
+    "name": "Laptop",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvRsbKIIZORIitKFZJiJ88gUOn17DZPc82_A&s",
+    "price": 39.99,
+    "description": "Description for Product 5"
+  },
+  {
+    "id": 6,
+    "name": "Wrist Watch",
+    "image": "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-ferarcosn-190819.jpg&fm=jpg",
+    "price": 59.99,
+    "description": "Description for Product 6"
+  },
+  {
+    "id": 7,
+    "name": "Shampoo",
+    "image": "https://www.unilever.com/content-images/92ui5egz/production/c706b2dabd89d77fab2d51eca4026c6ef31a3579-1920x1080.jpg?rect=0,36,1920,1008&w=1200&h=630&fm=jpg",
+    "price": 8.99,
+    "description": "Description for Product 6"
+  },
+  {
+    "id": 8,
+    "name": "Home Decoration",
+    "image": "https://m.media-amazon.com/images/I/81IRm64c4ML.jpg",
+    "price": 9.99,
+    "description": "Description for Product 6"
+  }
+]
