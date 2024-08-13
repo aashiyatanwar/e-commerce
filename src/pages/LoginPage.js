@@ -1,9 +1,9 @@
-// src/pages/LoginPage.js
 import React, { useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { AuthContext } from "../contexts/AuthContext";
 
+const baseURL = process.env.REACT_APP_BACKEND_URL;
 const LoginPage = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -18,7 +18,7 @@ const LoginPage = () => {
     setError("");
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/auth/login",
+        `${baseURL}api/auth/login`,
         { email, password }
       );
       setAuthToken(response.data.token);

@@ -1,4 +1,3 @@
-// src/components/Navbar.js
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../contexts/AuthContext";
@@ -10,9 +9,9 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   const handleLogout = () => {
-    setAuthToken(null); // Clear the auth token
-    localStorage.removeItem("authToken"); // Optional: Remove the token from localStorage
-    navigate("/login"); // Redirect to the login page
+    setAuthToken(null); 
+    localStorage.removeItem("authToken"); 
+    navigate("/login"); 
   };
 
   return (
